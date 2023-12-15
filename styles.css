@@ -1,5 +1,8 @@
 .santaSlack{
     background-color: #F3EEE5;
+   
+    background: linear-gradient(rgba(245, 243, 239, 0.5), rgba(245, 243, 239, 0.5)), url('images/e1f184a5e3b280b89cce38acc2fb9a39.jpg');
+    background-size: cover; /* Ensure the image covers the entire background */
 }
 
 nav {
