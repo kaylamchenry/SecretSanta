@@ -1,0 +1,100 @@
+.santaSlack{
+    background-color: #F3EEE5;
+}
+
+nav {
+    background-color: rgb(251,230,200);
+    color: rgb(16, 8, 8);
+    display: flex;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: rgb(84,31,9);
+    letter-spacing: 2px;
+    text-align: left;
+    float: left;
+    padding-left: 3%;
+    padding-right: 24%;
+    /* margin-left: 10px; */ /* Remove if not needed */
+    border-radius: 100px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    padding-right: 20px;
+}
+
+.nav-link:hover {
+    color: #7fbecf;
+    text-decoration: underline;
+}
+/* Center the form */
+main {  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Optional: Adjust the width of the form container */
+iframe {
+    max-width: 100%;
+    align-items: center;
+}
+.h1{
+    text-align: center; 
+    margin-left: 50px;
+}
+@media (max-width: 100px) {
+    #carouselExampleFade {
+        width: 10%;
+        height: 20px; /* Adjust the height for smaller screens */
+        display: flex;
+    }
+}
+/* Thicker Navbar Band */
+.navbar-expand-sm {
+    padding-top: 20px; /* Adjust the padding as needed to make the band thicker */
+    padding-bottom: 20px; /* Adjust the padding as needed to make the band thicker */
+    ; /* Adjust the background color as needed */
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out;
+ }
+ .navbar-scrolled {
+    background-color: #021944; /* Change to your desired color */
+}
+
+.container {
+        max-width: 800px; /* Adjust the max-width as needed */
+        width: 100%;
+    }
+    
+    iframe {
+        padding-top: 100px;
+        width: 100%;
+        height: 100%;
+        border: none; /* Remove border if not needed */
+    }
+    .cute-footer {
+        background-color: #f8f8f8;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+    }
+
+    .heart-icon {
+        color: #e74c3c; /* Red color for heart */
+        font-size: 20px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        margin-top: 5px;
+    }
