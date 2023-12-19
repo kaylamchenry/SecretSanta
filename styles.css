@@ -125,14 +125,13 @@ body {
     padding: 0;
 }
 
-
 /* Custom CSS for image arrangement */
 .image-container {
     display: flex;
     flex-direction: column; /* Arrange images in a column */
     align-items: center; 
     flex: 1; /* Each image takes an equal portion of the container */
-    max-width: 50%; /* Images are responsive and won't exceed their natural size */
+    max-width: 100%; /* Images are responsive and won't exceed their natural size */
     border-radius: 10px; /* Add border-radius for rounded corners, adjust as needed */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
     margin: 10px;
@@ -153,5 +152,3 @@ body {
         margin-bottom: 10px; /* Adjust spacing for small screens */
     }
 }
-
-/* ... (previous CSS remains unchanged) ... */
